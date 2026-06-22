@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o as a,c as o,a as e,d as r}from"./app-c7a93f02.js";const c={},n=e("h2",{id:"消息队列",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#消息队列","aria-hidden":"true"},"#"),r(" 消息队列")],-1),s=[n];function d(_,i){return a(),o("div",null,s)}const f=t(c,[["render",d],["__file","index.html.vue"]]);export{f as default};
