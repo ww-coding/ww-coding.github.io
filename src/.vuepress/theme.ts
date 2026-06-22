@@ -68,9 +68,10 @@ export default hopeTheme({
       imgLazyload: true,
       imgSize: true,
       include: true,
-      katex: true,
+      // math is enabled through the dedicated markdown option below.
       mark: true,
       mermaid: true,
+      math: true,
       playground: {
         presets: ["ts", "vue"],
       },
