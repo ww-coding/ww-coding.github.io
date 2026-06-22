@@ -2,14 +2,14 @@
 home: true
 layout: BlogHome
 icon: home
-title: FearlessCoding
+title: 无畏编码
 heroImage: /logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: FearlessCoding
-tagline: 从0到1探索，学习肝货，无畏iiii
+heroText: 无畏编码
+tagline: 记录写代码路上的实践、踩坑、复盘和思考，保持好奇，持续成长。
 actions:
   - text: 学习指南 💡
     link: ./demo/
