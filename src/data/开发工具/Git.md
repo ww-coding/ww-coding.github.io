@@ -326,7 +326,7 @@ index 46d49bf..9247db6 100644
 
 根据错误提示 **To add an exception for this directory, call: git config --global --add safe.directory **可知，Git 提示当前项目的目录被 Git 认为是不安全的，需要使用 **git config --global --add safe.directory** 命令将项目目录添加到 Git 的安全目录。如下图的错误：
 
-<img src="/images/20230914184457.png" alt="Snipaste_2023-07-27_00-32-01 - 副本" style="zoom: 80%;" />
+<img src="../../images/20230914184457.png" alt="Snipaste_2023-07-27_00-32-01 - 副本" style="zoom: 80%;" />
 
 
 

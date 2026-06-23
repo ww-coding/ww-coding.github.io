@@ -116,7 +116,7 @@ CentOS本身会配置一些path路径所以在配置前需要查看path路径
 echo $PATH
 ```
 
-![img](/images/img.png)
+![img](../../images/img.png)
 
 配置java
 
@@ -124,7 +124,7 @@ echo $PATH
 
 配置完成查看path路径
 
-![img](/images/img1.png)
+![img](../../images/img1.png)
 
  
 

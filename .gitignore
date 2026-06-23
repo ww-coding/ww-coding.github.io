@@ -3,3 +3,5 @@
 /src/.vuepress/.temp/
 /src/.vuepress/.cache/
 /src/.vuepress/dist/
+/src/.vuepress/public/images/
+/src/.obsidian/
