@@ -1,112 +1,112 @@
-import {sidebar} from "vuepress-theme-hope";
+import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-    "/demo/": [
-        "",
-        {
-            text: "案例",
-            icon: "laptop-code",
-            children: "structure",
-        },
-        "slides",
-    ],
-    "/guide/": [
-        "",
-        {
-            text: "文档",
-            icon: "book",
-            children: "structure",
-        },
-        "slides",
-    ],
-    "/data/": [
-        {
-            text: "消息队列",
-            icon: "laptop-code",
-            prefix: "消息队列/",
-            children: "structure",
-        },
-        {
-            text: "Java",
-            icon: "laptop-code",
-            prefix: "Java/",
-            children: "structure",
-        },
-        {
-            text: "J2EE",
-            icon: "laptop-code",
-            prefix: "J2EE/",
-            children: "structure",
-        },
-        {
-            text: "Web框架",
-            icon: "laptop-code",
-            prefix: "Web框架/",
-            children: "structure",
-        },
-        {
-            text: "数据库",
-            icon: "laptop-code",
-            prefix: "数据库/",
-            children: "structure",
-        },
-        {
-            text: "自我修养",
-            icon: "laptop-code",
-            prefix: "自我修养/",
-            children: "structure",
-        },
-        {
-            text: "容器服务",
-            icon: "laptop-code",
-            prefix: "容器服务/",
-            children: "structure",
-        },
-        {
-            text: "开发工具",
-            icon: "laptop-code",
-            prefix: "开发工具/",
-            children: "structure",
-        },
-        {
-            text: "Java工具类",
-            icon: "laptop-code",
-            prefix: "Java工具类/",
-            children: "structure",
-        },
-        {
-            text: "前端框架",
-            icon: "laptop-code",
-            prefix: "前端框架/",
-            children: "structure",
-        },
-        {
-            text: "系统架构",
-            icon: "laptop-code",
-            prefix: "系统架构/",
-            children: "structure",
-        }
-    ],
-    // "/data/J2EE": [
-    //     {
-    //         text: "导航总览",
-    //         icon: "signs-post",
-    //         children: "structure",
-    //     }
-    // ],
-    // "/menu/": [
-    //     {
-    //         text: "导航总览",
-    //         icon: "signs-post",
-    //         link: "README"
-    //     }
-    // ],
-    "/project/": [
-        "",
-        {
-            text: "案例",
-            icon: "laptop-code",
-            children: "structure",
-        }
-    ]
+  "/data/Java/": [
+    "",
+    "面试",
+    "Java并发",
+    {
+      text: "JVM",
+      icon: "memory",
+      prefix: "JVM/",
+      children: "structure",
+    },
+  ],
+
+  "/data/J2EE/": [
+    "",
+    "Spring",
+    {
+      text: "SpringBoot",
+      icon: "leaf",
+      prefix: "SpringBoot/",
+      children: "structure",
+    },
+  ],
+
+  "/data/数据库/": [
+    "",
+    {
+      text: "Mysql",
+      icon: "database",
+      prefix: "Mysql/",
+      children: "structure",
+    },
+    {
+      text: "Redis",
+      icon: "server",
+      prefix: "Redis/",
+      children: "structure",
+    },
+  ],
+
+  "/data/消息队列/": [
+    "",
+    "Kafka",
+    {
+      text: "RocketMQ",
+      icon: "paper-plane",
+      prefix: "RocketMQ/",
+      children: "structure",
+    },
+  ],
+
+  "/data/前端框架/": [
+    "",
+    "Vue",
+    {
+      text: "Vue 进阶",
+      icon: "code",
+      prefix: "Vue/",
+      children: "structure",
+    },
+  ],
+
+  "/data/系统架构/": ["", "限流"],
+
+  "/data/开发工具/": ["", "Git"],
+
+  "/data/自我修养/": ["", "数据结构", "算法", "设计模式"],
+
+  "/data/Java工具类/": ["", "工具"],
+
+  "/data/Web框架/": ["", "WebSocket"],
+
+  "/data/容器服务/": ["", "Linux"],
+
+  "/data/真实案例分析/": [
+    "",
+    "OOM真实生产分析",
+    "mysql字符集导致left join出现Using join buffer (Block Nested Loop)",
+  ],
+
+  "/data/": [
+    {
+      text: "学习笔记总览",
+      icon: "book-open",
+      children: [
+        "Java/",
+        "J2EE/",
+        "数据库/",
+        "消息队列/",
+        "前端框架/",
+        "系统架构/",
+        "开发工具/",
+        "自我修养/",
+        "Java工具类/",
+        "Web框架/",
+        "容器服务/",
+        "真实案例分析/",
+      ],
+    },
+  ],
+
+  "/project/": [
+    "",
+    {
+      text: "原创实战项目",
+      icon: "rocket",
+      children: "structure",
+    },
+  ],
 });

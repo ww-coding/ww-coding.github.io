@@ -4,10 +4,10 @@ layout: BlogHome
 icon: home
 title: 无畏编码
 heroImage: /logo.svg
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+bgImage: /images/home-bg-light.svg
+bgImageDark: /images/home-bg-dark.svg
 bgImageStyle:
-  background-attachment: fixed
+  background-attachment: scroll
 heroText: 无畏编码
 tagline: 记录写代码路上的实践、踩坑、复盘和思考，保持好奇，持续成长。
 actions:
