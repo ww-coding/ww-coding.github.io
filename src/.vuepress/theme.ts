@@ -48,7 +48,7 @@ export default hopeTheme({
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
-      repo: "Fearless-Coding/blog-discussions",
+      repo: "ww-coding/blog-discussions",
       repoId: "R_kgDOMDBarQ",
       category: "Announcements",
       categoryId: "DIC_kwDOMDBarc4CfwWq",
