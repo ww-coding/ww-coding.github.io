@@ -30,7 +30,7 @@ B站：https://www.bilibili.com/
 | 数据库连接池                | HikariCP                                    | Druid                                 | 多数据源 && 读写分离                        |                              |        |      |
 | 数据库中间件                | Sharding JDBC                               | MyCAT                                 | Sharding Sphere                     | Canal                        |        |      |
 | 分布式事务                 | TCC Transaction                             | Seata                                 | Happylifeplat TCC                   | Fescar                       |        |      |
-| 数据库                   | [MySQL](/data/数据库/Mysql/Mysql基础.md)         | [Redis](/data/数据库/Redis/Redis基础.md)   | MongoDB                             | TiDB                         |        |      |
+| 数据库                   | [MySQL](/data/数据库/Mysql/Mysql基础.md)         | [Redis基础](/data/数据库/Redis/Redis基础.md)   | [Redis数据类型](/data/数据库/Redis/Redis数据类型.md) | [Redis特殊数据类型](/data/数据库/Redis/Redis特殊数据类型.md) | [Redis持久化](/data/数据库/Redis/Redis持久化.md) | MongoDB |
 | 搜索引擎                  | Elasticsearch                               | Solr                                  | Lucene                              |                              |        |      |
 | [工具类](/data/Java工具类/工具.md) | RxJava                                      | Guava                                 | Hutool                              |                              |        |      |
 | 自我修养                  | [设计模式](/data/自我修养/设计模式.md)                  | [数据结构](/data/自我修养/数据结构.md)            | [算法](/data/自我修养/算法.md)              | 性能测试                         |        |      |

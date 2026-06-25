@@ -36,7 +36,14 @@ export default sidebar({
       text: "Redis",
       icon: "server",
       prefix: "Redis/",
-      children: "structure",
+      children: [
+        "Redis基础",
+        "Redis数据类型",
+        "Redis特殊数据类型",
+        "Redis持久化",
+        "Redis进阶",
+        "Redis实战",
+      ],
     },
   ],
 
