@@ -1,4 +1,8 @@
-# 无畏编码
+<p align="center">
+  <img src="src/.vuepress/public/logo.png" alt="无畏编码 Logo" width="120" />
+</p>
+
+<h1 align="center">无畏编码</h1>
 
 > 记录写代码路上的实践、踩坑、复盘和思考，保持好奇，持续成长。
 
