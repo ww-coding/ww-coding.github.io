@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/.vuepress/public/logo.png" alt="无畏编码 Logo" width="120" />
+  <img src="src/.vuepress/public/logo.svg" alt="无畏编码 Logo" width="120" />
 </p>
 
 <h1 align="center">无畏编码</h1>
