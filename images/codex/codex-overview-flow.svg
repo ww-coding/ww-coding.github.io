@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="300" viewBox="0 0 980 300" role="img" aria-labelledby="title desc">
+  <title id="title">Codex 基本工作流程</title>
+  <desc id="desc">从提出需求到查看结果的 Codex 使用流程图</desc>
+  <defs>
+    <style>
+      .bg{fill:#f8fafc}
+      .card{fill:#fff;stroke:#d9e2ec;stroke-width:2}
+      .head{font:700 22px Arial,"Microsoft YaHei",sans-serif;fill:#1f2937}
+      .text{font:16px Arial,"Microsoft YaHei",sans-serif;fill:#4b5563}
+      .step{font:700 15px Arial,"Microsoft YaHei",sans-serif;fill:#0f766e}
+      .arrow{stroke:#64748b;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .badge{fill:#ccfbf1;stroke:#5eead4}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="980" height="300" rx="18"/>
+  <text x="40" y="48" class="head">Codex 一次任务的完整流程</text>
+  <g transform="translate(40 88)">
+    <rect class="card" width="150" height="120" rx="12"/>
+    <rect class="badge" x="20" y="18" width="52" height="26" rx="13"/>
+    <text x="34" y="37" class="step">1</text>
+    <text x="20" y="68" class="head" font-size="18">提出需求</text>
+    <text x="20" y="96" class="text">说明目标和范围</text>
+  </g>
+  <path class="arrow" d="M205 148 H255"/>
+  <g transform="translate(270 88)">
+    <rect class="card" width="150" height="120" rx="12"/>
+    <rect class="badge" x="20" y="18" width="52" height="26" rx="13"/>
+    <text x="34" y="37" class="step">2</text>
+    <text x="20" y="68" class="head" font-size="18">读取上下文</text>
+    <text x="20" y="96" class="text">查看文件和结构</text>
+  </g>
+  <path class="arrow" d="M435 148 H485"/>
+  <g transform="translate(500 88)">
+    <rect class="card" width="150" height="120" rx="12"/>
+    <rect class="badge" x="20" y="18" width="52" height="26" rx="13"/>
+    <text x="34" y="37" class="step">3</text>
+    <text x="20" y="68" class="head" font-size="18">执行修改</text>
+    <text x="20" y="96" class="text">编辑代码或文档</text>
+  </g>
+  <path class="arrow" d="M665 148 H715"/>
+  <g transform="translate(730 88)">
+    <rect class="card" width="190" height="120" rx="12"/>
+    <rect class="badge" x="20" y="18" width="52" height="26" rx="13"/>
+    <text x="34" y="37" class="step">4</text>
+    <text x="20" y="68" class="head" font-size="18">验证与交付</text>
+    <text x="20" y="96" class="text">跑测试、看 diff、提交</text>
+  </g>
+  <text x="40" y="258" class="text">建议：需求明确、范围清楚、验证命令具体，Codex 的结果会更稳定。</text>
+</svg>
