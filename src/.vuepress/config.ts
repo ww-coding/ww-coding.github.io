@@ -9,6 +9,7 @@ export default defineUserConfig({
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   pagePatterns: [
     "README.md",
+    "data/README.md",
     "data/Codex.md",
     "data/数据库/**/*.md",
     "data/开发工具/**/*.md",
