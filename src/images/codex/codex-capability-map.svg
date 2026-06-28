@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360" role="img" aria-labelledby="title desc">
+  <title id="title">Codex 能力关系图</title>
+  <desc id="desc">Codex 核心能力与 Skills、Plugins、MCP、自动化的关系</desc>
+  <defs>
+    <style>
+      .bg{fill:#f8fafc}
+      .core{fill:#111827}
+      .node{fill:#fff;stroke:#d9e2ec;stroke-width:2}
+      .skill{fill:#f5f3ff;stroke:#a78bfa}
+      .plugin{fill:#ecfdf5;stroke:#34d399}
+      .mcp{fill:#eff6ff;stroke:#60a5fa}
+      .auto{fill:#fff7ed;stroke:#fb923c}
+      .head{font:700 22px Arial,"Microsoft YaHei",sans-serif;fill:#111827}
+      .white{font:700 22px Arial,"Microsoft YaHei",sans-serif;fill:#fff}
+      .text{font:16px Arial,"Microsoft YaHei",sans-serif;fill:#4b5563}
+      .line{stroke:#64748b;stroke-width:3;fill:none}
+    </style>
+  </defs>
+  <rect class="bg" width="980" height="360" rx="18"/>
+  <text x="40" y="48" class="head">Codex 核心能力与扩展能力</text>
+  <circle class="core" cx="490" cy="178" r="72"/>
+  <text x="454" y="170" class="white">Codex</text>
+  <text x="438" y="202" class="white" font-size="17">AI 编程助手</text>
+  <line class="line" x1="430" y1="136" x2="280" y2="92"/>
+  <line class="line" x1="550" y1="136" x2="700" y2="92"/>
+  <line class="line" x1="430" y1="220" x2="280" y2="266"/>
+  <line class="line" x1="550" y1="220" x2="700" y2="266"/>
+  <g transform="translate(92 62)">
+    <rect class="skill" width="230" height="82" rx="14"/>
+    <text x="24" y="34" class="head" font-size="18">Skills</text>
+    <text x="24" y="62" class="text">可复用任务流程</text>
+  </g>
+  <g transform="translate(658 62)">
+    <rect class="plugin" width="230" height="82" rx="14"/>
+    <text x="24" y="34" class="head" font-size="18">Plugins</text>
+    <text x="24" y="62" class="text">打包多种能力</text>
+  </g>
+  <g transform="translate(92 226)">
+    <rect class="mcp" width="230" height="82" rx="14"/>
+    <text x="24" y="34" class="head" font-size="18">MCP</text>
+    <text x="24" y="62" class="text">连接外部工具数据</text>
+  </g>
+  <g transform="translate(658 226)">
+    <rect class="auto" width="230" height="82" rx="14"/>
+    <text x="24" y="34" class="head" font-size="18">自动化</text>
+    <text x="24" y="62" class="text">定时提醒和检查</text>
+  </g>
+</svg>

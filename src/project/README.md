@@ -2,6 +2,7 @@
 title: 原创实战项目
 index: false
 icon: signs-post
+article: false
 category:
   - 原创实战项目
 ---

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="340" viewBox="0 0 980 340" role="img" aria-labelledby="title desc">
+  <title id="title">Worktree 隔离改动示意图</title>
+  <desc id="desc">同一个仓库可以有主工作区和 Codex 独立工作区</desc>
+  <defs>
+    <style>
+      .bg{fill:#f8fafc}
+      .repo{fill:#fff;stroke:#d9e2ec;stroke-width:2}
+      .main{fill:#eff6ff;stroke:#60a5fa}
+      .work{fill:#f0fdf4;stroke:#4ade80}
+      .head{font:700 22px Arial,"Microsoft YaHei",sans-serif;fill:#111827}
+      .text{font:16px Arial,"Microsoft YaHei",sans-serif;fill:#4b5563}
+      .mono{font:15px Consolas,monospace;fill:#334155}
+      .line{stroke:#64748b;stroke-width:3;fill:none}
+    </style>
+  </defs>
+  <rect class="bg" width="980" height="340" rx="18"/>
+  <text x="40" y="48" class="head">Worktree：把 Codex 的实验改动放到独立目录</text>
+  <g transform="translate(80 90)">
+    <rect class="repo" width="820" height="190" rx="16"/>
+    <text x="32" y="44" class="head" font-size="19">同一个 Git 仓库历史</text>
+    <line class="line" x1="410" y1="62" x2="410" y2="148"/>
+    <g transform="translate(48 78)">
+      <rect class="main" width="290" height="78" rx="12"/>
+      <text x="24" y="32" class="head" font-size="17">主工作区</text>
+      <text x="24" y="58" class="mono">D:\project</text>
+    </g>
+    <g transform="translate(480 78)">
+      <rect class="work" width="290" height="78" rx="12"/>
+      <text x="24" y="32" class="head" font-size="17">Codex Worktree</text>
+      <text x="24" y="58" class="mono">D:\project-codex-task</text>
+    </g>
+  </g>
+  <text x="80" y="314" class="text">适合：当前有未提交改动、想试验新方案、多个任务并行开发。</text>
+</svg>

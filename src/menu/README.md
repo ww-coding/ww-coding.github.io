@@ -2,6 +2,7 @@
 title: 导航总览
 index: false
 icon: signs-post
+article: false
 category:
   - 使用指南
 ---

@@ -2,6 +2,7 @@
 title: 开源项目推荐
 index: false
 icon: signs-post
+article: false
 category:
   - 使用指南
 ---
