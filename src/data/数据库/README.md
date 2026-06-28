@@ -1,7 +1,7 @@
 ---
 title: 数据库
 index: false
-#icon: laptop-code
+icon: database
 category:
   - 使用指南
 ---

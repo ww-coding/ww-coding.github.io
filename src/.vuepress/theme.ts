@@ -21,6 +21,10 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  breadcrumb: true,
+
+  breadcrumbIcon: true,
+
   // navbar
   navbar,
 
