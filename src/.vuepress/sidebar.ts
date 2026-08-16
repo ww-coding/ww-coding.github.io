@@ -71,6 +71,37 @@ export default sidebar({
     },
   ],
 
+  "/openSource/": [
+    "",
+    {
+      text: "学习资源",
+      icon: "book-open",
+      prefix: "学习资源/",
+      link: "学习资源/",
+      collapsible: true,
+      expanded: true,
+      children: ["Hello算法"],
+    },
+    {
+      text: "开发框架",
+      icon: "code-branch",
+      prefix: "开发框架/",
+      link: "开发框架/",
+      collapsible: true,
+      expanded: true,
+      children: ["若依"],
+    },
+    {
+      text: "开发工具",
+      icon: "toolbox",
+      prefix: "开发工具/",
+      link: "开发工具/",
+      collapsible: true,
+      expanded: true,
+      children: ["DBX", "Electerm"],
+    },
+  ],
+
   "/project/": [
     "",
     {
