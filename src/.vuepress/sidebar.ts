@@ -71,6 +71,22 @@ export default sidebar({
     },
   ],
 
+  "/data/人工智能/": [
+    "",
+    {
+      text: "LangChain",
+      icon: "robot",
+      prefix: "LangChain/",
+      link: "/data/人工智能/LangChain.html",
+      collapsible: true,
+      expanded: true,
+      children: [
+        "快速开始",
+        "学习路线",
+      ],
+    },
+  ],
+
   "/project/": [
     "",
     {

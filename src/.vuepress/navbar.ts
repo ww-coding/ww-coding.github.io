@@ -8,6 +8,7 @@ export default navbar([
     children: [
       { text: "数据库", icon: "database", link: "数据库/" },
       { text: "开发工具", icon: "toolbox", link: "开发工具/" },
+      { text: "人工智能", icon: "brain", link: "人工智能/" },
     ],
   },
   {

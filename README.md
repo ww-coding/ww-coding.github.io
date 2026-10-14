@@ -22,6 +22,7 @@
 
 - [学习笔记](https://ww-coding.github.io/data/)：数据库、开发工具等体系化笔记
 - [数据库](https://ww-coding.github.io/data/%E6%95%B0%E6%8D%AE%E5%BA%93/)：MySQL、Redis 等数据库相关内容
+- [人工智能](https://ww-coding.github.io/data/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/)：LangChain 等大模型应用开发笔记
 - [实战项目](https://ww-coding.github.io/project/)：项目实践、开发记录与复盘
 - [资源推荐](https://ww-coding.github.io/openSource/)：开源项目与学习资源整理
 

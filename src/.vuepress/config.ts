@@ -13,6 +13,7 @@ export default defineUserConfig({
     "data/Codex.md",
     "data/数据库/**/*.md",
     "data/开发工具/**/*.md",
+    "data/人工智能/**/*.md",
     "project/**/*.md",
     "openSource/**/*.md",
   ],
